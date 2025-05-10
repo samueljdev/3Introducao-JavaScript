@@ -52,3 +52,21 @@ console.log("Função Console === ");
 console.log("teste");
 console.error("erro!");
 console.warn("aviso!");
+
+// 7 - if
+console.log("Estrutura de controle if === ");
+const m = 10;
+
+if (m > 5) {
+  console.log("M é maior que 5!");
+}
+
+const user = "João";
+
+if (user === "João") {
+  console.log("Olá João!");
+}
+
+if (user === "Maria") {
+  console.log("Olá Maria!");
+}
