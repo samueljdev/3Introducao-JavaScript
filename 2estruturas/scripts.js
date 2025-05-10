@@ -11,3 +11,21 @@ console.log(idade);
 
 console.log(typeof nome)
 console.log(typeof idade)
+
+// 2 - Mais sobre variáveis
+console.log("=== Mais sobre variáveis === ")
+// let 2teste = "inválido"
+// let @teste = "inválido"
+
+let a = 10,
+  b = 20,
+  c = 30;
+console.log(a, b, c);
+
+const nomecompleto = "Matheus Pires";
+const nomeCompleto = "João da Silva";
+console.log(nomecompleto, nomeCompleto);
+
+let _teste = "válido";
+let $teste = "válido";
+console.log(_teste, $teste);
