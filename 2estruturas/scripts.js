@@ -48,3 +48,9 @@ console.log("Função Math ==");
 console.log("Maior numero é: ", Math.max(5, 2, 1, 10));
 console.log("Arredonda pra baixo: ", Math.floor(5.14));
 console.log("Arredonda pra cima: ", Math.ceil(5.14));
+
+// 6 - Função Console
+console.log("Função Console ==");
+console.log("teste");
+console.error("erro!");
+console.warn("aviso!");
