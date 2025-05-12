@@ -150,3 +150,17 @@ const repeatText = (text, repeat = 2) => {
 
 repeatText("Testando");
 repeatText("Agora repete 5 vezes", 5);
+
+// 9 - closure
+console.log("Closure ==");
+
+function someFunction() {
+  let txt = "Alguma coisa";
+
+  function display() {
+    console.log(txt);
+  }
+  display();
+}
+
+someFunction();
