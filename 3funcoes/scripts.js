@@ -90,3 +90,19 @@ const parOuImpar = (n) => {
 
 parOuImpar(5);
 parOuImpar(6);
+
+// 6 - mais sobre arrow functions
+console.log("Mais sobre arrow functions ==");
+
+const raizQuadrada = (x) => {
+  return x * x;
+}
+
+const novaRaizQuadrada = (n) => n * n;
+
+console.log(raizQuadrada(4));
+console.log(novaRaizQuadrada(4));
+
+const helloWorld = () => console.log("Hello!");
+
+helloWorld();
