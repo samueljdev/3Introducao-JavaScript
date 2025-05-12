@@ -199,3 +199,18 @@ switch (job) {
   default:
     console.log("Profissão não encontrada");
 }
+
+// switch Errado"
+console.log("Switch Errado ==");
+const l = 100;
+
+switch (l) {
+  case 200:
+    console.log("L é 200!");
+  case 100:
+    console.log("L é 100!");
+  case 10:
+    console.log("L é 10!");
+  default:
+    console.log("L não foi encontrado");
+}
