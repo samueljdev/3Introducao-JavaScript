@@ -16,3 +16,13 @@ const arr = ["a", "b", "c", "d"];
 console.log(arr[0]);
 console.log(arr[2]);
 console.log(arr[10]);
+
+// 3 - propriedades
+console.log("Propriedades de arrays ==");
+
+const numbers = [5, 12, 4, 22];
+console.log(numbers.length);
+console.log(numbers["length"]);
+
+const myName = "Matheus";
+console.log(myName.length);
