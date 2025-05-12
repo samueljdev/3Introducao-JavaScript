@@ -127,3 +127,12 @@ let x = 10;
 while (x > 5) {
   console.log(`Imprimindo ${x}`);
 }*/
+
+// 11 - do while
+console.log("Do While ==");
+let o = 10;
+
+do {
+  console.log(`Valor de o: ${o}`);
+  o = o - 1;
+} while (o > 1);
