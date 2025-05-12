@@ -160,3 +160,14 @@ for (let u = 0; u < 10; u++) {
     }
   }
 }
+
+// 14 - break
+console.log("Break ==");
+for (let g = 20; g > 10; g--) {
+  console.log(`O g é: ${g}`);
+
+  if (g === 12) {
+    console.log("Chegamos no 12!");
+    break;
+  }
+}
