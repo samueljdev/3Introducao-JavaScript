@@ -125,3 +125,12 @@ delete ObjetoB.age;
 
 console.log(ObjetoA);
 console.log(ObjetoB);
+
+// 10 - loop em array
+console.log("Loop em array ==");
+
+const users = ["Matheus", "João", "Pedro", "Miguel"];
+
+for (let i = 0; i < users.length; i++) {
+  console.log(`Listando usuário: ${users[i]}`);
+}
