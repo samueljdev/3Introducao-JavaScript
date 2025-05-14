@@ -102,3 +102,26 @@ console.log(Object.keys(obj2));
 console.log(Object.keys(person));
 
 console.log(Object.entries(obj));
+
+// 9 - Mutação
+console.log("Mutação ==");
+
+const ObjetoA = {
+  name: "Matheus",
+}
+
+const ObjetoB = ObjetoA;
+
+console.log(ObjetoA);
+console.log(ObjetoB);
+
+console.log(ObjetoA === ObjetoB);
+
+ObjetoA.age = 31;
+
+console.log(ObjetoB);
+
+delete ObjetoB.age;
+
+console.log(ObjetoA);
+console.log(ObjetoB);
