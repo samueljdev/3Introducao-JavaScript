@@ -188,3 +188,17 @@ console.log(myElements.lastIndexOf("Maçã"));
 
 console.log(myElements.indexOf("Mamão"));
 console.log(myElements.lastIndexOf("Mamão"));
+
+// 14 - slice
+console.log("Slice ==");
+
+const arraySlice = ["a", "b", "c", "d", "e", "f"];
+
+const subArray = arraySlice.slice(2, 4); /*intervalo ou faixa de array */
+console.log(subArray);
+
+const subArray2 = arraySlice.slice(2, 4 + 1);
+console.log(subArray2);
+
+const subArray3 = arraySlice.slice(10, 20); /* intervalo de array qe ñ existe */
+console.log(subArray3);
