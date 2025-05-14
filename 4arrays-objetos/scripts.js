@@ -73,3 +73,23 @@ console.log(car);
 delete car.km; /* deletando propriedade */
 
 console.log(car);
+
+// 7 - mais sobre objetos
+console.log("Mais sobre objetos ==");
+
+const obj = {
+  a: "teste",
+  b: true,
+}
+
+console.log(obj instanceof Object);
+console.log(obj);
+
+const obj2 = {
+  c: [],
+}
+
+console.log(obj2);
+
+Object.assign(obj2, obj);
+console.log(obj2);
