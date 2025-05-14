@@ -154,3 +154,20 @@ console.log(array.length);
 
 array.push("Dá", "Para", "Inserir", "Vários"); /*adicionando varios elementos */
 console.log(array);
+
+// 12 - shift e unshift
+console.log("Shift e unshift ==");
+
+const letters = ["a", "b", "c"];
+console.log(letters);
+
+const letter = letters.shift(); /*removendo no inicio */
+
+console.log(letter);
+console.log(letters);
+
+letters.unshift("z", "x", "y"); /*adicionando varios elementos no inicio */
+console.log(letters)
+
+letters.unshift("p"); /*adicionando no inicio */
+console.log(letters);
