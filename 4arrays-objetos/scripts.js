@@ -134,3 +134,23 @@ const users = ["Matheus", "João", "Pedro", "Miguel"];
 for (let i = 0; i < users.length; i++) {
   console.log(`Listando usuário: ${users[i]}`);
 }
+
+// 11 - push e pop
+console.log("Push e pop ==");
+
+const array = ["a", "b", "c"];
+array.push("d"); /*adicionando elementos */
+
+console.log(array);
+console.log(array.length);
+
+array.pop(); /*deletando elementos */
+console.log(array);
+
+const itemRemovido = array.pop(); /*retornando elementos removido */
+console.log(itemRemovido);
+console.log(array);
+console.log(array.length);
+
+array.push("Dá", "Para", "Inserir", "Vários"); /*adicionando varios elementos */
+console.log(array);
