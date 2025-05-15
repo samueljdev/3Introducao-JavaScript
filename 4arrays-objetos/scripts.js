@@ -242,3 +242,14 @@ console.log("Array sem reverse:",reverseTest);
 
 reverseTest.reverse(); /* investe os elementos de um array */
 console.log("Array com reverse:",reverseTest);
+
+// 18 - trim
+console.log("Trim ==");
+
+const trimTest = "  testando \n   ";
+console.log(trimTest);
+
+console.log(trimTest.trim()); /* removendo tudo o que ñ é texto na string */
+
+console.log(trimTest.trim().length); /* contagem excluindo os caracterer invisiveis */
+console.log(trimTest.length); /* contagem cm caracterer invisiveis*/
