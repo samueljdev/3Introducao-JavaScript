@@ -253,3 +253,14 @@ console.log(trimTest.trim()); /* removendo tudo o que ñ é texto na string */
 
 console.log(trimTest.trim().length); /* contagem excluindo os caracterer invisiveis */
 console.log(trimTest.length); /* contagem cm caracterer invisiveis*/
+
+// 19 - padstart
+console.log("Padstart ==");
+
+const testePadStart = "1";
+const newNumber = testePadStart.padStart(4, "0"); /* inserir um texto no começo da string*/
+console.log(testePadStart);
+
+console.log(newNumber);
+const testePadEnd = newNumber.padEnd(10, "0"); /* inserir um texto no FINAL da string*/
+console.log(testePadEnd);
