@@ -233,3 +233,12 @@ console.log(brands.includes("Kia"));
 if (brands.includes("BMW")) {
   console.log("Há carros da marca BMW!");
 }
+
+// 17 - reverse
+console.log("Reverse ==");
+
+const reverseTest = [1, 2, 3, 4, 5];
+console.log("Array sem reverse:",reverseTest);
+
+reverseTest.reverse(); /* investe os elementos de um array */
+console.log("Array com reverse:",reverseTest);
