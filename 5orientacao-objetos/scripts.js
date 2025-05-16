@@ -46,3 +46,19 @@ console.log(arr.length);
 
 console.log(Object.getPrototypeOf(arr) === Array.prototype); /*O Ancestral do arr é console.log(Object.getPrototypeOf(arr) === Array.prototype); /*O Ancestral do arr é Boolean */
 /* prototype ñ é um recurso tão utilizado hj em dia */
+
+// 4 - mais sobre prototype
+console.log("Mais sobre prototype ==");
+
+const myObject = {
+  a: "b",
+}
+
+console.log(Object.getPrototypeOf(myObject)); /* criando prototype */
+console.log(Object.getPrototypeOf(myObject) === Object.prototype); /* valiando prototype */
+
+const mySecondObject = Object.create(myObject); /* criando objeto apartir de outro objeto*/
+console.log(mySecondObject);
+
+console.log(Object.getPrototypeOf(mySecondObject) === myObject); /* valiando prototype */
+console.log(mySecondObject.a); /*Acessando propriedade de objeto pai no filho*/
