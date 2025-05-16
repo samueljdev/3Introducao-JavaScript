@@ -31,3 +31,18 @@ console.log(pessoa.getNome());
 
 pessoa.setNome("Samuel Lisboa");
 console.log(pessoa.getNome());
+
+// 3 - prototype
+console.log("Prototype ==");
+
+const text = "AAAA";
+console.log(Object.getPrototypeOf(text)); /*O Ancestral do text é String */
+
+const bool = true;
+console.log(Object.getPrototypeOf(bool)); /*O Ancestral do bool é Boolean */
+
+const arr = [];
+console.log(arr.length);
+
+console.log(Object.getPrototypeOf(arr) === Array.prototype); /*O Ancestral do arr é console.log(Object.getPrototypeOf(arr) === Array.prototype); /*O Ancestral do arr é Boolean */
+/* prototype ñ é um recurso tão utilizado hj em dia */
