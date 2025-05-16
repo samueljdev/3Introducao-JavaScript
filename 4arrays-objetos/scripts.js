@@ -209,7 +209,7 @@ console.log("Foreach ==");
 const nums = [1, 2, 3, 4, 5];
 
 nums.forEach((n) => {
-    console.log(`O numero atual é: ${n}`)
+  console.log(`O numero atual é: ${n}`)
 })
 
 const posts = [
@@ -320,3 +320,16 @@ const somaInfinita2 = (...args) => {
 
 console.log(somaInfinita2(1, 5, 10));
 console.log(somaInfinita2(1, 2, 3, 4, 5, 6, 7, 7, 8, 9));
+
+// 25 - destructuring objetos
+console.log("Destructuring objetos ==");
+
+const userDetails = {
+  firstName: "Matheus",
+  lastName: "Battisti",
+  job: "Programador",
+}
+console.log(userDetails);
+
+const { firstName, lastName, job } = userDetails; /* desestruturando objetos ou algum dado*/
+console.log(firstName, lastName, job); /* separado em varias variáveis = feito string */
