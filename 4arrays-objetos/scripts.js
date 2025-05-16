@@ -340,3 +340,12 @@ console.log("Renomeando variáveis ==");
 /* Renomeando variáveis como Destructuring de objetos */
 const { firstName: primeiroNome } = userDetails; /* renomeando variavel */
 console.log(primeiroNome);
+
+// 26 - destructuring me arrays
+console.log("Destructuring em arrays ==");
+
+const myList = ["Avião", "Submarino", "Carro"];
+console.log(myList);
+
+const [veiculoA, veiculoB, veiculoC] = myList; /*Destructuring em lista usa-se [ ] */
+console.log(veiculoA, veiculoB, veiculoC);
