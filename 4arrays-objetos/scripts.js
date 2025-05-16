@@ -282,3 +282,9 @@ console.log(itensParaComprar);
 
 const fraseDeCompra = `Precisamos comprar ${itensParaComprar.join(", ")}.`; /* uni uma lista em string com base no separador*/
 console.log(fraseDeCompra);
+
+// 22 - repeat
+console.log("Repeat ==");
+
+const palavra = "Testando, ";
+console.log(palavra.repeat(5));
