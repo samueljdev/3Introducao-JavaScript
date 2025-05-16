@@ -367,3 +367,12 @@ console.log(typeof myObject);
 const myString = JSON.stringify(myObject); /* convertendo Objeto JSON para string*/
 console.log(myString);
 console.log(typeof myString);
+
+// json invalido
+console.log("Json invalido ==");
+
+const badJson = '{"name": Matheus, "age": 31, "skills": ["PHP", "JavaScript", "Python"]}'; /* JSON com erro */
+// const myBadJson = JSON.parse(badJson); /* impossível fazer conversão de JSON Errado*/
+
+myObject.isOpenToWork = true; /* adicionando propriedade em objeto*/
+console.log(myObject);
