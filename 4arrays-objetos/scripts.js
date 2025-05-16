@@ -356,3 +356,14 @@ console.log("Json ==");
 
 const myJson = '{"name": "Matheus","age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
 console.log(myJson);
+
+// 28 - json para objeto e objeto para json
+console.log("Json para objeto e objeto para json ==");
+
+const myObject = JSON.parse(myJson); /* convertendo objeto me JSON*/
+console.log(myObject);
+console.log(typeof myObject);
+
+const myString = JSON.stringify(myObject); /* convertendo Objeto JSON para string*/
+console.log(myString);
+console.log(typeof myString);
