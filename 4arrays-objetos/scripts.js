@@ -273,3 +273,12 @@ console.log(frase);
 
 const arrayDaFrase = frase.split(" "); /* separando a frase por espaços em array*/
 console.log(arrayDaFrase);
+
+// 21 - join
+console.log("Join ==");
+
+const itensParaComprar = ["Mouse", "Teclado", "Monitor"];
+console.log(itensParaComprar);
+
+const fraseDeCompra = `Precisamos comprar ${itensParaComprar.join(", ")}.`; /* uni uma lista em string com base no separador*/
+console.log(fraseDeCompra);
