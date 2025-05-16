@@ -333,3 +333,10 @@ console.log(userDetails);
 
 const { firstName, lastName, job } = userDetails; /* desestruturando objetos ou algum dado*/
 console.log(firstName, lastName, job); /* separado em varias variáveis = feito string */
+
+// renomeando variáveis
+console.log("Renomeando variáveis ==");
+
+/* Renomeando variáveis como Destructuring de objetos */
+const { firstName: primeiroNome } = userDetails; /* renomeando variavel */
+console.log(primeiroNome);
