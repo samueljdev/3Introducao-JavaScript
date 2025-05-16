@@ -62,3 +62,24 @@ console.log(mySecondObject);
 
 console.log(Object.getPrototypeOf(mySecondObject) === myObject); /* valiando prototype */
 console.log(mySecondObject.a); /*Acessando propriedade de objeto pai no filho*/
+
+// 5 - classes básicas
+console.log("Classes básicas ==");
+
+const cachorro = {
+  raca: null,
+  patas: 4,
+}
+
+const pastorAlemao = Object.create(cachorro); /*Criando outro objeto apartir do cachorro, que herda suas propriedades*/
+console.log(pastorAlemao);
+
+pastorAlemao.raca = "Pastor Alemão";
+console.log(pastorAlemao);
+
+const bulldog = Object.create(cachorro); /*Criando outro objeto */
+console.log(bulldog);
+
+bulldog.raca = "Bulldog";
+console.log(bulldog);
+console.log(bulldog.patas);
