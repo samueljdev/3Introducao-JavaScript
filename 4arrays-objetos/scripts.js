@@ -349,3 +349,10 @@ console.log(myList);
 
 const [veiculoA, veiculoB, veiculoC] = myList; /*Destructuring em lista usa-se [ ] */
 console.log(veiculoA, veiculoB, veiculoC);
+
+// 27 - json
+console.log("Json ==");
+/* JSON (JavaScript Object Notation) é dado em formato de texto */
+
+const myJson = '{"name": "Matheus","age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+console.log(myJson);
