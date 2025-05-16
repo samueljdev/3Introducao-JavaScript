@@ -264,3 +264,12 @@ console.log(testePadStart);
 console.log(newNumber);
 const testePadEnd = newNumber.padEnd(10, "0"); /* inserir um texto no FINAL da string*/
 console.log(testePadEnd);
+
+// 20 - split
+console.log("Split ==");
+
+const frase = "O rato roeu a roupa do rei de Roma";
+console.log(frase);
+
+const arrayDaFrase = frase.split(" "); /* separando a frase por espaços em array*/
+console.log(arrayDaFrase);
