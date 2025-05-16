@@ -309,7 +309,8 @@ console.log(somaInfinita(1, 2, 3, 4, 5, 6, 7, 7, 8, 9));
 console.log("For...of ==");
 
 const somaInfinita2 = (...args) => {
-  let total, num = 0;
+  let total = 0;
+  let num = 0;
 
   for (num of args) {
     total += num;
