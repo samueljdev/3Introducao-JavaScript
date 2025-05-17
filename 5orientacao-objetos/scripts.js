@@ -136,3 +136,32 @@ const jeff = new CachorroClasse("Jeff", "Labrador");
 console.log(jeff);
 
 console.log(Object.getPrototypeOf(jeff));
+
+// 10 - mais sobre classes
+console.log("Mais sobre classes ==");
+
+class Caminhao {
+  constructor(eixos, cor) {
+    this.eixos = eixos;
+    this.cor = cor;
+  }
+
+  descreverCaminhao() {
+    console.log(`Este caminhão tem ${this.eixos} eixos e é da cor ${this.cor}.`);
+  }
+}
+
+const scania = new Caminhao(6, "Vermelha");
+scania.descreverCaminhao();
+
+Caminhao.motor = 4.0; /* ñ irar funcionar, só funciona se adicionar propriedades na classe */
+const c2 = new Caminhao(4, "Preta");
+
+// Motor é undefined
+console.log(c2.motor);
+
+/* Adicionando propriedades via prototype*/
+Caminhao.prototype.motor = 4.0;
+const c3 = new Caminhao(6, "Azul");
+console.log(c3);
+console.log(c3.motor);
