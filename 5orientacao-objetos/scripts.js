@@ -83,3 +83,21 @@ console.log(bulldog);
 bulldog.raca = "Bulldog";
 console.log(bulldog);
 console.log(bulldog.patas);
+
+// 6 - funcoes como classes
+console.log("Funcoes como classes ==");
+
+function criarCachorro(nome, raca) {
+  const cachorro = Object.create({});
+  cachorro.raca = raca;
+  cachorro.nome = nome;
+  return cachorro;
+}
+
+const bob = criarCachorro("Bob", "Vira lata");
+console.log(bob);
+
+const jack = criarCachorro("Jack", "Poodle");
+console.log(jack);
+
+console.log(Object.getPrototypeOf(jack));
