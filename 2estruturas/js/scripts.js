@@ -36,3 +36,9 @@ let _teste = "válido";
 let $teste = "válido";
 
 console.log(_teste, $teste);
+
+// 3 - prompt
+
+// const age = prompt("Digite sua idade: ");
+
+// console.log(`Você tem ${age} anos!`);
