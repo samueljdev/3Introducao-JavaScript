@@ -178,3 +178,12 @@ for (let g = 20; g > 10; g--) {
         break;
     }
 }
+
+// 15 - continue
+for (s = 0; s < 10; s++) {
+    if (s % 2 === 0) {
+        console.log("Número par!");
+        continue;
+    }
+    console.log(s);
+}
