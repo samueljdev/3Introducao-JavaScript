@@ -187,3 +187,34 @@ for (s = 0; s < 10; s++) {
     }
     console.log(s);
 }
+
+// 15 - switch
+const job = "Advogado";
+
+switch (job) {
+    case "Programador":
+        console.log("Voce é um programador!");
+        break;
+    case "Advogado":
+        console.log("Voce é um advogado!");
+        break;
+    case "Engenheiro":
+        console.log("Voce é um engenheiro!");
+        break;
+    default:
+        console.log("Profissão não encontrada");
+}
+
+// switch "errado"
+const l = 100;
+
+switch (l) {
+    case 200:
+        console.log("L é 200!");
+    case 100:
+        console.log("L é 100!");
+    case 10:
+        console.log("L é 10!");
+    default:
+        console.log("L não foi encontrado");
+}
