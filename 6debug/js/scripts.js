@@ -69,3 +69,10 @@ checkNumber(5);
 checkNumber("10");
 checkNumber({});
 checkNumber("teste");
+
+// 5 - exceptions
+let x = 10;
+
+if (x != 11) {
+    //   throw new Error("O valor de x não pode ser diferente de 11!");
+}
