@@ -55,3 +55,11 @@ const navLinks = document.querySelector("nav ul");
 const li = document.createElement("li");
 
 navLinks.appendChild(li); // visto apenas no elements do navegador
+
+// 8 - replaceChild
+console.log("replaceChild == ");
+
+const h2 = document.createElement("h2");
+h2.textContent = "Meu novo título!";
+
+header.replaceChild(h2, title); // visto apenas no elements do navegador
