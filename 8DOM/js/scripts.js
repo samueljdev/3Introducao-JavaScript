@@ -16,3 +16,9 @@ console.log("Selecionando por tag == ");
 
 const listItens = document.getElementsByTagName("li");
 console.log(listItens);
+
+// 3 - selecionando elemento por id
+console.log("Selecionando elemento por id == ");
+
+const title = document.getElementById("title");
+console.log(title);
