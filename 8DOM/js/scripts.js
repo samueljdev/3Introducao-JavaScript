@@ -95,3 +95,9 @@ console.log(footer.offsetHeight);
 
 console.log(footer.clientWidth);
 console.log(footer.clientHeight);
+
+// 12 - posicao do elemento
+console.log("posicao do elemento == ");
+
+const product1 = products[0];
+console.log(product1.getBoundingClientRect());
