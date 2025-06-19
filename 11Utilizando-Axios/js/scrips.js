@@ -6,10 +6,11 @@ const getData = async () => { // função async espera os dados chegarem
     try {
         const response = await axios.get("https://jsonplaceholder.typicode.com/users",
             //   Ver request headers
+            //   4 - definindo headers
             {
-                headers: {
-                    "content-type": "application/json",
-                    custom: "header",
+                headers: { // cabeçalhos
+                    "content-type": "application/json", // chave tipo de conteúdo
+                    custom: "header", // criando uma chave personalizada.
                 },
             }
         );
